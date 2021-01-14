@@ -14,5 +14,20 @@
         "IRIS IntegratedML Jupyter": "http://localhost:8896/tree",
         "Webterminal": "http://localhost:8092/terminal/"
         }
-  }
+  },
+  "sqltools.connections": [
+    {
+      "namespace": "USER",
+      "connectionMethod": "Server and Port",
+      "showSystem": false,
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 8092,
+      "askForPassword": false,
+      "driver": "InterSystems IRIS",
+      "name": "user",
+      "username": "_system",
+      "password": "SYS"
+    }
+  ]
 }
